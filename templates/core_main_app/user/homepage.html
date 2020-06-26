@@ -1,23 +1,47 @@
 {% load staticfiles %}
 <div class="row">
-    <div class="row justify-content-center" id="intro">
-        <div class="col-md-5">
-            <h2>{{ CUSTOM_TITLE }}</h2>
-            <p>
-                This system allows for the curation of Material Data in a repository using
-                predefined templates.
-            </p>
-            <p>
-                This is being developed at the National Institute of Standards and Technology and
-                is made available to solicit comments from the Material Science community. Please
-                do not enter any proprietary data into this system.
-            </p>
-        </div>
-        <div class="col-md-3">
-            <img id="mgi-diagram" src="{% static 'core_main_app/img/mgi_diagram.jpg' %}"
-                 alt="Material Genome Initiative diagram">
-        </div>
+  <div class="col-md-12">
+    <div class="row" id="intro">
+      <img id="mgi-diagram" src="/static/core_main_app/img/custom-logo.png" alt="AMBENCH Repository">
+      <p><h2>{{ CUSTOM_TITLE }}</h2></p>
+      <img class="scaled" src="{% static 'core_main_app/img/custom-diagram.png' %}"
     </div>
+  </div>
+</div>
+<div class="row" id="intro">
+  <div class="col-md-12">
+     <ul style="float: left;width:60%;">
+	<h2>Description</h2>
+	<p><h3>AM-Bench provides a continuing series of controlled benchmark measurements, in conjunction with a conference series, with the primary goal of enabling modelers to test their simulations against rigorous, highly controlled additive manufacturing benchmark test data.  All AM-Bench data are permanently archived for public use.  The first round of benchmark measurements and the first conference, AM-Bench 2018, were completed in 2018 and the next round of measurements and the next conference, AM-Bench 2022, will be completed in 2022. </h3></p>
+     </ul>
+     <figure style="float: left; margin-top:7em;  margin-left:5em;">
+     <img id="mgi-diagram" src="/static/core_main_app/img/Picture1.png" alt="Steel Test Specimens" />
+	<figcaption>Build plate of AM-Bench 2018 test artifacts</figcaption></figure> 
+   </div>
+</div>
+<div class="row" id="intro">
+  <div class="col-md-12">
+    <ul style="float: left;width:60%;">
+      <h2>Scope</h2>
+      <p><h3>AM-Bench was established to develop benchmark measurements for all AM processes and materials.  However, the requirement for highly controlled and quantitative measurements severely limits the number of benchmark measurements that can be conducted in any given test cycle.  Thus, one of the key challenges faced by AM-Bench is to select benchmark measurements that are both feasible and have the highest impact on the AM community. We thank the AM-Bench Scientific Committee for the valuable advice they provided in selecting the final materials and processes that were used for AM-Bench 2018 and that are currently being used for AM-Bench 2022.
+      </p>
+      <p>The 2018 benchmarks included both metals and polymers.  For metals, the focus was on laser powder bed fusion (LPBF) of both a nickel-based superalloy, 625, and a martensitic, precipitation-hardenable stainless steel, 15-5.  Both 3-D builds and single laser tracks on bare metal plates were conducted.  For polymers, the focus was on thermoplastic AM technologies and we identified the two most widely used approaches for AM-Bench: materials extrusion (MatEx) and LPBF, also sometimes referred to as selective laser sintering (SLS).  The MatEx benchmark focused on polycarbonate and the LPBF focused on polyamide 12 (nylon 12). </h3></p>
+    </ul>
+    <figure style="float: left; margin-top:7em;  margin-left:5em;">
+     <img id="mgi-diagram" src="/static/core_main_app/img/Picture2.png" alt="Steel Test Specimens" />
+      <figcaption>Local crystallographic orientations within AM-Bench 2018 test artifact</figcaption></figure>
+   </div>
+</div>
+<div class="row" id="intro">
+  <div class="col-md-12">
+    <ul style="float: left;width:60%;">
+      <h2>Referencing the AM-Bench 2018 Measurement Results</h2>
+      <p><h3>Most of the AM-Bench 2018 measurement data have been published, primarily in the journal <b><font color="blue"><a href="https://www.springer.com/journal/40192">Integrating Materials and Manufacturing Innovation</a></b></font>, within the thematic section:  <b><font color="blue"><a href="https://link.springer.com/journal/40192/topicalCollection/AC_ba4fc38f382e80f550cbd25e2530f1e8/page/1">Additive Manufacturing Benchmarks 2018</a></b></font>. Please cite the relevant AM-Bench publications whenever you use these data. Follow this link for details on the  <b><font color="blue"><a href="https://www.nist.gov/ambench">AM-Bench 2018 publications</a></b></font></h3></p>
+     </ul>
+     <figure style="float: left; margin-top:7em;  margin-left:5em;">
+     <img "mgi-diagram" src="/static/core_main_app/img/Picture3.png" alt="Steel Test Specimens" />
+    <figcaption>Residual elastic strains in AM-Bench test artifact</figcaption></figure>
+  </div>
 </div>
 <div class="row justify-content-center">
     <div class="col-md-5" id="tiles">
