@@ -2538,7 +2538,7 @@
 /* Footer */
 
 	#footer {
-		color: white;
+		color: black;
 		height: 3em;
 		background-image: url("../img/amback.png");
         margin-top: 1em;
@@ -2547,7 +2547,7 @@
 	}
 
 	#footer a {
-        color: white;
+        color: black;
 	}
 
 	#footer div {
