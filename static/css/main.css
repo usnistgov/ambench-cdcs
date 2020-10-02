@@ -1914,7 +1914,7 @@
 	}
 
 	header p {
-		color: #999;
+		color: #000;
 		font-size: 1.25em;
 		position: relative;
 		margin-top: -1.25em;
@@ -2371,7 +2371,7 @@
 
                 /* Added by NIST */
 			    #nav > ul > li > a:not(.btn-custom) {
-					color: #fff/*#c0c0c0*/;
+					color: #000/*#c0c0c0*/;
 					padding-bottom: 9pt;
 				}
 
@@ -2408,7 +2408,7 @@
 }
 
 #cdcs-menu-title a {
-  color: #fff;
+  color: #000;
   font-size: 18px;
   font-weight: 700;
   margin-left: 1.2em;
