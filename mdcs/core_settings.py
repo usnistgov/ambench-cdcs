@@ -5,19 +5,18 @@ import os
 SERVER_URI = os.environ["SERVER_URI"] if "SERVER_URI" in os.environ else None
 
 # Website customization
-WEBSITE_SHORT_TITLE = "MDCS"
-CUSTOM_DATA = "Materials Data"
+CUSTOM_CURATE='Data Curation'
+CUSTOM_DATA='Materials Data'
+CUSTOM_TITLE='ADDITIVE MANUFACTURING BENCHMARK TEST SERIES (AM-BENCH)'
+CUSTOM_SUBTITLE='A continuing series of highly controlled benchmark tests for additive manufacturing, with modeling challenge problems. Results will be discussed at a corresponding conference series'
+CUSTOM_NAME='NIST Ambench'
+WEBSITE_SHORT_TITLE = "AMBench"
 CUSTOM_NAME = os.environ["SERVER_NAME"] if "SERVER_NAME" in os.environ else "Curator"
-CUSTOM_TITLE = "Materials Data Curation System"
-CUSTOM_SUBTITLE = "Part of the Materials Genome Initiative"
 CURATE_MENU_NAME = "Data Curation"
 WEBSITE_ADMIN_COLOR = "yellow"
 # black, black-light, blue, blue-light, green, green-light, purple, purple-light, red, red-light, yellow, yellow-light
 
-DATA_SOURCES_EXPLORE_APPS = [
-    "core_explore_federated_search_app",
-    "core_explore_oaipmh_app",
-]
+#DATA_SOURCES_EXPLORE_APPS = [ "core_explore_federated_search_app", "core_explore_oaipmh_app", ]
 
 # Lists in data not stored if number of elements is over the limit (e.g. 100)
 SEARCHABLE_DATA_OCCURRENCES_LIMIT = None
@@ -30,7 +29,7 @@ EXPLORE_ADD_DEFAULT_LOCAL_DATA_SOURCE_TO_QUERY = True
 """ boolean: Do we add the local data source to new queries by default
 """
 
-SSL_CERTIFICATES_DIR = True
+SSL_CERTIFICATES_DIR = False
 """ Either a boolean, in which case it controls whether requests verify the server's TLS certificate, 
 or a string, in which case it must be a path to a CA bundle to use.
 """
