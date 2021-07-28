@@ -103,13 +103,16 @@ ID_PROVIDER_PREFIXES = ["cdcs"]
 default prefix)
 """
 
-PID_XPATH = "root.pid"
+PID_XPATH = "AMDoc.pid"
 """ string: location of the PID in the document, specified as dot notation
 """
 
-AUTO_SET_PID = False
+AUTO_SET_PID = True
 """ boolean: enable the automatic pid generation for saved data.
 """
+
+CAN_ANONYMOUS_ACCESS_PUBLIC_DOCUMENT= True
+
 
 ENABLE_SAML2_SSO_AUTH = os.getenv("ENABLE_SAML2_SSO_AUTH", "False").lower() == "true"
 """ boolean: enable SAML2 SSO authentication.
