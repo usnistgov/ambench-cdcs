@@ -7,10 +7,10 @@ SERVER_URI = os.environ["SERVER_URI"] if "SERVER_URI" in os.environ else None
 # Website customization
 CUSTOM_CURATE='Data Curation'
 CUSTOM_DATA='Materials Data'
-CUSTOM_TITLE='ADDITIVE MANUFACTURING BENCHMARK TEST SERIES (AM-BENCH)'
+CUSTOM_TITLE='ADDITIVE MANUFACTURING BENCHMARK TEST SERIES (AM-BENCH) 2018'
 CUSTOM_SUBTITLE='A continuing series of highly controlled benchmark tests for additive manufacturing, with modeling challenge problems. Results will be discussed at a corresponding conference series'
-CUSTOM_NAME='NIST Ambench'
-WEBSITE_SHORT_TITLE = "AMBench"
+CUSTOM_NAME='NIST Ambench 2018'
+WEBSITE_SHORT_TITLE = "AMBench 2018"
 CUSTOM_NAME = os.environ["SERVER_NAME"] if "SERVER_NAME" in os.environ else "Curator"
 CURATE_MENU_NAME = "Data Curation"
 WEBSITE_ADMIN_COLOR = "yellow"
